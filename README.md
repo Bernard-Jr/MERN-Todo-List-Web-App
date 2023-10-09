@@ -1,6 +1,5 @@
 # MERN-Todo-List-Web-App
 A simple Todo List web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. This project demonstrates CRUD (Create, Read, Update, Delete) operations with tasks, task status toggling, and task management.
-Certainly! Here's a sample README file for your MERN Todo List App:
 
 ```markdown
 # MERN Todo List App
