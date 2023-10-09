@@ -1,0 +1,192 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  background-image: url('/Home.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Yellowtail&display=swap');
+
+h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 80px;
+  font-weight: 600;
+  background-image: linear-gradient(to right, #553c9a 45%, #ee4b2b);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  margin-top: 20px;
+}
+
+h2 {
+  font-family: 'Yellowtail', cursive;
+  color: #553c9a;
+  font-size: 30px;
+  text-shadow: 
+  -1px -1px 0 white,
+  1px -1px 0 white,
+  -1px 1px 0 white,
+  1px 1px 0 white;
+}
+
+.task-content p.completed,
+h2.completed {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+label, input, .task-content input, .task-content button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+:root {
+  --primary-color: #FF2400;
+  --secondary-color: #BCCC91;
+  --tertiary-color: #AEEEEE;
+}
+
+.create_form input {
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+  font-family: 'Caveat', cursive;
+}
+
+.create_form button {
+  padding: 12px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-family: 'Caveat', cursive;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  width: 360px;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  height: 25px;
+  margin-top: 2px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.task-content {
+  flex-grow: 1;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.task-content p {
+  font-family: 'Caveat', cursive;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.line_through {
+  text-decoration: line-through;
+}
+
+.checkbox .icon {
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.task div span {
+  margin: 0px 5px 0px 4px;
+}
+
+.task div .icon {
+  cursor: pointer;
+}
+
+.action-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.action-icons input {
+  font-family: 'Caveat', cursive;
+}
+
+.action-icons button {
+  padding: 12px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-family: 'Caveat', cursive;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.edit-icon {
+  color: white;
+  margin-left: 15px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.edit-icon:hover {
+  color: red;
+}
+
+.delete-icon {
+  color: white;
+  margin-right: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.delete-icon:hover {
+  color: red;
+}
+
+.icon.circle {
+  color: white;
+}
+
+.icon.checkmark {
+  color: #553c9a;
+}
+
+.completed .task-content .checkbox p {
+  text-decoration: line-through;
+  color: #553c9a;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #ff0000;
+}
+
