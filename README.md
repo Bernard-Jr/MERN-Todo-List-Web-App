@@ -48,10 +48,15 @@ Before you begin, ensure you have met the following requirements:
    mongodb://localhost:27017/
    ```
 
+   - Open MongoDB Compass.
+   - Click on "New Connection."
+   - Paste the connection string (`mongodb://localhost:27017/`) into the URI field.
+   - Click the "Connect" button to establish a connection to your local MongoDB instance.
+
 9. In a separate terminal, navigate to the `todolist` directory:
 
    ```bash
-   cd ../todolist
+   cd MERN-Todo-List-Web-App-main/todolist
    ```
 
 10. Install client dependencies:
