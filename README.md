@@ -89,6 +89,3 @@ This project is licensed under the MIT License.
 ## Contact
 
 If you have any questions or want to report a bug, please feel free to contact me at bernarduser1@gmail.com.
-```
-
-These instructions should guide users through the installation and usage of your MERN Todo List App while addressing the points you mentioned.
