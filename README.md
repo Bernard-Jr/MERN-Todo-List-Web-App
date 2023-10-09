@@ -37,19 +37,25 @@ Before you begin, ensure you have met the following requirements:
    npm start
    ```
 
-5. In a separate terminal, navigate to the client directory:
+5. In MongoDB Compass, connect to your MongoDB instance using the following connection string:
+
+   ```
+   mongodb://localhost:27017/
+   ```
+
+6. In a separate terminal, navigate to the client directory:
 
    ```bash
    cd ../client
    ```
 
-6. Install client dependencies:
+7. Install client dependencies:
 
    ```bash
    npm install
    ```
 
-7. Start the client development server:
+8. Start the client development server:
 
    ```bash
    npm run dev
@@ -57,7 +63,8 @@ Before you begin, ensure you have met the following requirements:
 
 ## Usage
 
-- Access the web app by opening your web browser and visiting [http://localhost:5173/](http://localhost:5173)
+- Access the web app by opening your web browser and visiting [http://localhost:5173/](http://localhost:5173/)
+
 - Use the app to add, edit, delete, and mark tasks as completed.
 
 ## Contributing
