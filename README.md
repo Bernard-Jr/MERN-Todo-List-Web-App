@@ -1,6 +1,3 @@
-# MERN-Todo-List-Web-App
-A simple Todo List web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. This project demonstrates CRUD (Create, Read, Update, Delete) operations with tasks, task status toggling, and task management.
-
 ```markdown
 # MERN Todo List App
 
@@ -60,8 +57,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## Usage
 
-- Access the web app by opening your web browser and visiting [http://localhost:3000](http://localhost:3000) (or the URL where the client is running).
-
+- Access the web app by opening your web browser and visiting [http://localhost:5173/](http://localhost:5173)
 - Use the app to add, edit, delete, and mark tasks as completed.
 
 ## Contributing
@@ -80,8 +76,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-If you have any questions or want to report a bug, please feel free to contact me at your-email@example.com.
-
-```
-
-You can use this as a template for your README file and customize it further to include specific details about your project, features, and contact information.
+If you have any questions or want to report a bug, please feel free to contact me at bernarduser1@gmail.com.
