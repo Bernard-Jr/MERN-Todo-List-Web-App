@@ -1,4 +1,3 @@
-```markdown
 # MERN Todo List App
 
 A simple Todo List web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. This project demonstrates CRUD (Create, Read, Update, Delete) operations with tasks, task status toggling, and task management.
@@ -13,57 +12,63 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installation
 
-1. Clone the repository:
+1. Download the project as a zip folder from [here](https://github.com/Bernard-Jr/MERN-Todo-List-Web-App/archive/main.zip).
+
+2. Extract the downloaded zip file to your preferred location.
+
+3. Open the folder in Visual Studio Code (VSC).
+
+4. Navigate to the directory in the integrated terminal:
 
    ```bash
-   git clone https://github.com/your-username/mern-todo-list.git
+   cd MERN-Todo-List-Web-App-main
    ```
 
-2. Navigate to the server directory:
+5. Navigate to the server directory:
 
    ```bash
-   cd mern-todo-list/server
+   cd Server
    ```
 
-3. Install server dependencies:
+6. Install server dependencies:
 
    ```bash
    npm install
    ```
 
-4. Start the server:
+7. Start the server:
 
    ```bash
    npm start
    ```
 
-5. In MongoDB Compass, connect to your MongoDB instance using the following connection string:
+8. In MongoDB Compass, connect to your MongoDB instance using the following connection string:
 
    ```
    mongodb://localhost:27017/
    ```
 
-6. In a separate terminal, navigate to the client directory:
+9. In a separate terminal, navigate to the `todolist` directory:
 
    ```bash
-   cd ../client
+   cd ../todolist
    ```
 
-7. Install client dependencies:
+10. Install client dependencies:
 
-   ```bash
-   npm install
-   ```
+    ```bash
+    npm install
+    ```
 
-8. Start the client development server:
+11. Start the client development server:
 
-   ```bash
-   npm run dev
-   ```
+    ```bash
+    npm run dev
+    ```
 
 ## Usage
 
-- Access the web app by opening your web browser and visiting [http://localhost:5173/](http://localhost:5173/)
+- Access the web app by opening your web browser and visiting [http://localhost:5173/](http://localhost:5173/).
 
 - Use the app to add, edit, delete, and mark tasks as completed.
 
@@ -84,3 +89,6 @@ This project is licensed under the MIT License.
 ## Contact
 
 If you have any questions or want to report a bug, please feel free to contact me at bernarduser1@gmail.com.
+```
+
+These instructions should guide users through the installation and usage of your MERN Todo List App while addressing the points you mentioned.
