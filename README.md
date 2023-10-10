@@ -77,6 +77,17 @@ Before you begin, ensure you have met the following requirements:
 
 - Use the app to add, edit, delete, and mark tasks as completed.
 
+## Screenshots
+
+Here are some screenshots of the MERN Todo List App:
+
+![Screenshot 1](/Screenshot/No task.jpg)
+*Caption for Screenshot 1*
+
+![Screenshot 2](/screenshots/screenshot2.png)
+*Caption for Screenshot 2*
+
+
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
